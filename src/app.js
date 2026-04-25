@@ -27,7 +27,7 @@ app.get("", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About Me",
-    name: "Ansari Mantasha",
+    name: "Sumit Tiwari",
     aboutText:
       "I am a passionate web developer with years of experience in creating robust and user-friendly web applications. My expertise includes front-end and back-end development, and I am proficient in various programming languages and frameworks such as HTML, CSS, JavaScript, Node.js, and React. I strive to deliver high-quality solutions that meet the needs of clients and users. In my free time, I enjoy exploring new technologies, contributing to open-source projects, and expanding my skill set.",
   });
